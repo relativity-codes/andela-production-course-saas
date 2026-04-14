@@ -1,58 +1,24 @@
-# Week 1 AI SaaS Project
+# AI-Powered SaaS Platform
 
-This project is a complete Week 1 production-ready app built with Next.js and FastAPI.
+## Overview
+This project is an AI-powered SaaS (Software as a Service) platform designed to provide innovative business solutions. The platform offers tools such as a Business Idea Generator, leveraging the power of AI to inspire new opportunities.
 
-## What it includes
+## Links
 
-- `app/page.tsx`: React frontend landing page using Next.js App Router
-- `app/layout.tsx`: App Router layout and global CSS import
-- `api/index.py`: FastAPI backend endpoint
-- `requirements.txt`: Python dependencies
-- `package.json`: Next.js dependencies
-- `tailwind.config.js` / `postcss.config.js`: Tailwind setup
+- Repo: https://github.com/relativity-codes/andela-production-course-saas.git
+- Live app: https://idea-generator-eta-ten.vercel.app
 
-## Run locally
+## Features
 
-1. Install Node.js and Python 3.11+.
-2. From this directory, install frontend dependencies:
+### 1. Business Idea Generator
+- Generate high-potential business concepts tailored for the modern AI economy.
+- Ideas are formatted with headings, sub-headings, and bullet points for clarity.
 
-   ```bash
-   npm install
-   ```
-
-3. Install backend dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Start the project with the Vercel dev environment:
-
-   ```bash
-   npx vercel dev
-   ```
-
-5. Open the URL shown by Vercel (usually <http://127.0.0.1:3000>).
-
-## Deploy to Vercel
-
-1. Install Vercel CLI if needed:
-
-   ```bash
-   npm install -g vercel
-   ```
-
-2. Link or deploy the project:
-
-   ```bash
-   vercel
-   ```
-
-3. Add your OpenAI API key to Vercel:
-
-   ```bash
-   vercel env add OPENAI_API_KEY
-   ```
+## Tech Stack
+- **Frontend**: Next.js
+- **Backend**: FastAPI
+- **AI Integration**: OpenAI API
+- **Environment Management**: Python dotenv
 
 4. Re-deploy once the environment variable is configured.
 
